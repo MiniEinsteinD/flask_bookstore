@@ -1,2 +1,7 @@
 # Ignore venv
 .env
+#*.pyc
+#*.cpython*
+#src/__pycache__/*
+*.pyc
+__pycache__
