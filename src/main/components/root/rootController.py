@@ -8,4 +8,4 @@ def redirect_user():
     Redirect the user to the login page if they are not signed in,
     the home page if they are signed in
     """
-    return redirect(url_for('home_controller.get_home_page'))   # FIXME: hardcoded magic string
+    return redirect('/login')   # FIXME: hardcoded magic string
